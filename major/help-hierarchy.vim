@@ -24,11 +24,16 @@ nnoremap <leader>mht      :action QuickTypeDefinition<CR>
 vnoremap <leader>mht      :action QuickTypeDefinition<CR>
 
 " Show usages for symbol
-let g:WhichKeyDesc_Major_Help_ShowUsages = "<leader>mhU show-usages"
-nnoremap <leader>mhU      :action ShowUsages<CR>
-vnoremap <leader>mhU      :action ShowUsages<CR>
+"let g:WhichKeyDesc_Major_Help_ShowUsages = "<leader>mhU show-usages"
+"nnoremap <leader>mhU      :action ShowUsages<CR>
+"vnoremap <leader>mhU      :action ShowUsages<CR>
 
 " Find usages for symbol
-let g:WhichKeyDesc_Major_Help_FindUsages = "<leader>mhu find-usages"
-nnoremap <leader>mhu      :action FindUsages<CR>
-vnoremap <leader>mhu      :action FindUsages<CR>
+"let g:WhichKeyDesc_Major_Help_FindUsages = "<leader>mhu find-usages"
+"nnoremap <leader>mhu      :action FindUsages<CR>
+"vnoremap <leader>mhu      :action FindUsages<CR>
+
+" parameter info
+let g:WhichKeyDesc_Major_Help_ParameterInfo = "<leader>mhp parameter-info"
+nnoremap <leader>mhp      :action ParameterInfo<CR>
+vnoremap <leader>mhp      <Esc>:action ParameterInfo<CR>

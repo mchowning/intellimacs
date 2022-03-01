@@ -22,3 +22,13 @@ vnoremap <leader>mg[    <Esc>:action EditorCodeBlockStart<CR>
 let g:WhichKeyDesc_Major_Goto_CodeBlockEnd = "<leader>mg] code-block-end"
 nnoremap <leader>mg]    :action EditorCodeBlockEnd<CR>
 vnoremap <leader>mg]    <Esc>:action EditorCodeBlockEnd<CR>
+
+" Show usages for symbol
+let g:WhichKeyDesc_Major_Goto_ShowUsages = "<leader>mgu show-usages"
+nnoremap <leader>mgu      :action ShowUsages<CR>
+vnoremap <leader>mgu      :action ShowUsages<CR>
+
+" Find usages for symbol
+let g:WhichKeyDesc_Major_Goto_FindUsages = "<leader>mgU find-usages"
+nnoremap <leader>mgU      :action FindUsages<CR>
+vnoremap <leader>mgU      :action FindUsages<CR>
