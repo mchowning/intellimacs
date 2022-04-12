@@ -4,9 +4,9 @@ nnoremap <leader>sc    :nohlsearch<CR>
 vnoremap <leader>sc    <Esc>:nohlsearch<CR>
 
 " Rename symbol
-let g:WhichKeyDesc_SearchSymbol_RenameElement = "<leader>se rename-element"
-nnoremap <leader>se    :action RenameElement<CR>
-vnoremap <leader>se    :action RenameElement<CR>
+"let g:WhichKeyDesc_SearchSymbol_RenameElement = "<leader>se rename-element"
+"nnoremap <leader>se    :action RenameElement<CR>
+"vnoremap <leader>se    :action RenameElement<CR>
 
 " Highlight current symbol. Do it again to toggle highlight.
 let g:WhichKeyDesc_SearchSymbol_HighlightUsages = "<leader>sh highlight-usages"
