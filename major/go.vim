@@ -32,3 +32,9 @@ vnoremap <leader>mgu      :action ShowUsages<CR>
 let g:WhichKeyDesc_Major_Goto_FindUsages = "<leader>mgU find-usages"
 nnoremap <leader>mgU      :action FindUsages<CR>
 vnoremap <leader>mgU      :action FindUsages<CR>
+
+
+" Find usages for symbol
+let g:WhichKeyDesc_Major_Goto_SuperMethod = "<leader>mgs super"
+nnoremap <leader>mgs      :action GotoSuperMethod<CR>
+vnoremap <leader>mgs      :action GotoSuperMethod<CR>
