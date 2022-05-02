@@ -61,3 +61,9 @@ vnoremap <leader>mrR      <Esc>:action Refactorings.QuickListPopupAction<CR>
 let g:WhichKeyDesc_Major_Refactoring_RenameSymbol = "<leader>mrr rename-symbol"
 nnoremap <leader>mrr      :action RenameElement<CR>
 vnoremap <leader>mrr      :action RenameElement<CR>
+
+
+" Surround with
+let g:WhichKeyDesc_Major_Refactoring_RenameSymbol = "<leader>mrs surround-with"
+nnoremap <leader>mrs      :action SurroundWith<CR>
+vnoremap <leader>mrs      :action SurroundWith<CR>
