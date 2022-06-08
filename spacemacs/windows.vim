@@ -65,6 +65,11 @@ let g:WhichKeyDesc_Windows_Popup_Messages = "<leader>wpm messages"
 nnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
 vnoremap <leader>wpm    :action ActivateEventLogToolWindow<CR>
 
+" Show logcat window
+let g:WhichKeyDesc_Windows_Logcat = "<leader>wpl logcat"
+nnoremap <leader>wpl    :action ActivateLogcatToolWindow<CR>
+vnoremap <leader>wpl    :action ActivateLogcatToolWindowCR>
+
 " Split window below and focus
 let g:WhichKeyDesc_Windows_SplitWindowBelowAndFocus = "<leader>wS split-window-below-and-focus"
 nnoremap <leader>wS    <C-w>s<C-w>j
