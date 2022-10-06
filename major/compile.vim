@@ -7,3 +7,9 @@ vnoremap <leader>mcC      :action Compile<CR>
 let g:WhichKeyDesc_Major_Compile_CompileDirty = "<leader>mcc compile-dirty"
 nnoremap <leader>mcc      :action CompileDirty<CR>
 vnoremap <leader>mcc      :action CompileDirty<CR>
+
+
+" Android: Sync Project With Gradle Files
+let g:WhichKeyDesc_Major_Compile_SyncGradle = "<leader>mcs sync-gradle"
+nnoremap <leader>mcs      :action Android.SyncProject<CR>
+vnoremap <leader>mcs      :action Android.SyncProject<CR>

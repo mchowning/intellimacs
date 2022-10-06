@@ -1,4 +1,9 @@
 " View Breakpoints
+let g:WhichKeyDesc_Major_Debug_AttachAndroidDebugger = "<leader>mda attach-android-debugger"
+nnoremap <leader>mda    :action AndroidConnectDebuggerAction<CR>
+vnoremap <leader>mda    <Esc>:action AndroidConnectDebuggerAction<CR>
+"
+" View Breakpoints
 let g:WhichKeyDesc_Major_Debug_ViewBreakpoints = "<leader>mdB view-breakpoints"
 nnoremap <leader>mdB    :action ViewBreakpoints<CR>
 vnoremap <leader>mdB    <Esc>:action ViewBreakpoints<CR>
