@@ -40,6 +40,11 @@ let g:WhichKeyDesc_Projects_GotoFile = "<leader>pf goto-file"
 nnoremap <leader>pf    :action GotoFile<CR>
 vnoremap <leader>pf    :action GotoFile<CR>
 
+" Find symbols
+let g:WhichKeyDesc_Projects_GotoSymbol = "<leader>pf goto-symbol"
+nnoremap <leader>ps    :action GotoSymbol<CR>
+vnoremap <leader>ps    :action GotoSymbol<CR>
+
 " Invalidate cache
 let g:WhichKeyDesc_Projects_InvalidateCaches = "<leader>pI invalidate-caches"
 nnoremap <leader>pI    :action InvalidateCaches<CR>
