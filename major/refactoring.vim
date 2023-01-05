@@ -53,17 +53,17 @@ nnoremap <leader>mrn      :action NewClass<CR>
 vnoremap <leader>mrn      :action NewClass<CR>
 
 " Choose a refactoring action
-let g:WhichKeyDesc_Major_Refactoring_ChooseRefactoringAction = "<leader>mrR choose-refactoring-action"
-nnoremap <leader>mrR      :action Refactorings.QuickListPopupAction<CR>
-vnoremap <leader>mrR      <Esc>:action Refactorings.QuickListPopupAction<CR>
+let g:WhichKeyDesc_Major_Refactoring_ChooseRefactoringAction = "<leader>mrr choose-refactoring-action"
+nnoremap <leader>mrr      :action Refactorings.QuickListPopupAction<CR>
+vnoremap <leader>mrr      <Esc>:action Refactorings.QuickListPopupAction<CR>
 
 " Rename symbol
-let g:WhichKeyDesc_Major_Refactoring_RenameSymbol = "<leader>mrr rename-symbol"
-nnoremap <leader>mrr      :action RenameElement<CR>
-vnoremap <leader>mrr      :action RenameElement<CR>
+" let g:WhichKeyDesc_Major_Refactoring_RenameElement = "<leader>mrR rename-element"
+" nnoremap <leader>mrR      :action RenameElement<CR>
+" vnoremap <leader>mrR      :action RenameElement<CR>
 
 
 " Surround with
-let g:WhichKeyDesc_Major_Refactoring_RenameSymbol = "<leader>mrs surround-with"
+let g:WhichKeyDesc_Major_Refactoring_SurroundWith = "<leader>mrs surround-with"
 nnoremap <leader>mrs      :action SurroundWith<CR>
 vnoremap <leader>mrs      :action SurroundWith<CR>

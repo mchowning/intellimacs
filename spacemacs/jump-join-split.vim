@@ -15,6 +15,11 @@ let g:WhichKeyDesc_JumpJoinSplit_JumpToProjectWindowAlt = "<leader>jd jump-to-pr
 nnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>jd    :action ActivateProjectToolWindow<CR>
 
+let g:WhichKeyDesc_JumpJoinSplit_SelectInProjectView = "<leader>jp select-in-project-window"
+nnoremap <leader>jp    :action SelectInProjectView<CR>
+vnoremap <leader>jp    :action SelectInProjectView<CR>
+
+
 " Jump to character (AceJump plugin required)
 "let g:WhichKeyDesc_JumpJoinSplit_JumpToCharacter = "<leader>jj jump-to-character"
 "nnoremap <leader>jj    :action AceAction<CR>

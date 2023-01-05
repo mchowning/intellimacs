@@ -12,12 +12,13 @@ vnoremap <leader>pa    :action GotoTest<CR>
 let g:WhichKeyDesc_Projects_ListBuffers = "<leader>pb list-buffers"
 nnoremap <leader>pb    :action RecentFiles<CR>
 vnoremap <leader>pb    :action RecentFiles<CR>
-let g:WhichKeyDesc_Projects_ListBuffersAlt = "<leader>ph list-buffers"
-nnoremap <leader>ph    :action RecentFiles<CR>
-vnoremap <leader>ph    :action RecentFiles<CR>
-let g:WhichKeyDesc_Projects_RecentFiles = "<leader>pr recent-files"
-nnoremap <leader>pr    :action RecentFiles<CR>
-vnoremap <leader>pr    :action RecentFiles<CR>
+" removing duplicate functionality
+"let g:WhichKeyDesc_Projects_ListBuffersAlt = "<leader>ph list-buffers"
+"nnoremap <leader>ph    :action RecentFiles<CR>
+"vnoremap <leader>ph    :action RecentFiles<CR>
+"let g:WhichKeyDesc_Projects_RecentFiles = "<leader>pr recent-files"
+"nnoremap <leader>pr    :action RecentFiles<CR>
+"vnoremap <leader>pr    :action RecentFiles<CR>
 
 " Make project
 let g:WhichKeyDesc_Projects_CompileProject = "<leader>pc compile-project"
@@ -28,9 +29,9 @@ vnoremap <leader>pc    :action CompileDirty<CR>
 " Sadly when you are inside the project window this key binding does not work
 " anymore. You can use <A-1> if you want to close the window or <Esc> if you
 " want to leave the window opened and focus on the code.
-let g:WhichKeyDesc_Projects_Window  = "<leader>pD project-window"
-nnoremap <leader>pD    :action ActivateProjectToolWindow<CR>
-vnoremap <leader>pD    :action ActivateProjectToolWindow<CR>
+"let g:WhichKeyDesc_Projects_Window  = "<leader>pD project-window"
+"nnoremap <leader>pD    :action ActivateProjectToolWindow<CR>
+"vnoremap <leader>pD    :action ActivateProjectToolWindow<CR>
 let g:WhichKeyDesc_Projects_Tree  = "<leader>pt file-tree"
 nnoremap <leader>pt    :action ActivateProjectToolWindow<CR>
 vnoremap <leader>pt    :action ActivateProjectToolWindow<CR>
@@ -41,7 +42,7 @@ nnoremap <leader>pf    :action GotoFile<CR>
 vnoremap <leader>pf    :action GotoFile<CR>
 
 " Find symbols
-let g:WhichKeyDesc_Projects_GotoSymbol = "<leader>pf goto-symbol"
+let g:WhichKeyDesc_Projects_GotoSymbol = "<leader>ps goto-symbol"
 nnoremap <leader>ps    :action GotoSymbol<CR>
 vnoremap <leader>ps    :action GotoSymbol<CR>
 
