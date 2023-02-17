@@ -23,12 +23,6 @@ source ~/.intellimacs/spacemacs/errors.vim
 let g:WhichKeyDesc_Files = "<leader>f    +files"
 source ~/.intellimacs/spacemacs/files.vim
 
-let g:WhichKeyDesc_Frame = "<leader>F    +frame"
-source ~/.intellimacs/spacemacs/frame.vim
-
-" let g:WhichKeyDesc_GitVcs = "<leader>g    +git/version-control"
-" source ~/.intellimacs/spacemacs/git-vcs.vim
-
 let g:WhichKeyDesc_Help = "<leader>h    +help"
 source ~/.intellimacs/spacemacs/help.vim
 
