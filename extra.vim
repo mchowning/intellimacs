@@ -13,7 +13,6 @@ source ~/.intellimacs/extra/buffers.vim
 source ~/.intellimacs/extra/compile-comments.vim
 source ~/.intellimacs/extra/errors.vim
 source ~/.intellimacs/extra/files.vim
-source ~/.intellimacs/extra/frame.vim
 
 let g:WhichKeyDesc_Fold = "<leader>F    +fold"
 source ~/.intellimacs/extra/fold.vim
