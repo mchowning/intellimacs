@@ -1,13 +1,17 @@
 " Compile selected file, package or module
-let g:WhichKeyDesc_Major_Compile_Compile = "<leader>mcC compile"
-nnoremap <leader>mcC      :action Compile<CR>
-vnoremap <leader>mcC      :action Compile<CR>
+" let g:WhichKeyDesc_Major_Compile_Compile = "<leader>mcC compile"
+" nnoremap <leader>mcC      :action Compile<CR>
+" vnoremap <leader>mcC      :action Compile<CR>
+" 
+" " Make project
+" let g:WhichKeyDesc_Major_Compile_CompileDirty = "<leader>mcc compile-dirty"
+" nnoremap <leader>mcc      :action CompileDirty<CR>
+" vnoremap <leader>mcc      :action CompileDirty<CR>
 
-" Make project
-let g:WhichKeyDesc_Major_Compile_CompileDirty = "<leader>mcc compile-dirty"
-nnoremap <leader>mcc      :action CompileDirty<CR>
-vnoremap <leader>mcc      :action CompileDirty<CR>
-
+" Clean Project
+let g:WhichKeyDesc_Major_Compile_CleanGradleProject = "<leader>mcc clean project"
+nnoremap <leader>mcc      :action CleanGradleProject<CR>
+vnoremap <leader>mcc      :action CleanGradleProject<CR>
 
 " Android: Sync Project With Gradle Files
 let g:WhichKeyDesc_Major_Compile_SyncGradle = "<leader>mcs sync-gradle"

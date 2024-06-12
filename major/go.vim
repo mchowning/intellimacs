@@ -1,7 +1,7 @@
 " Go to declaration
-let g:WhichKeyDesc_Major_Goto_Declaration = "<leader>mgg declaration"
-nnoremap <leader>mgg    :action GotoDeclaration<CR>
-vnoremap <leader>mgg    <Esc>:action GotoDeclaration<CR>
+let g:WhichKeyDesc_Major_Goto_Declaration = "<leader>mgd declaration"
+nnoremap <leader>mgd    :action GotoDeclaration<CR>
+vnoremap <leader>mgd    <Esc>:action GotoDeclaration<CR>
 
 " Go to implementation
 let g:WhichKeyDesc_Major_Goto_Implementation = "<leader>mgi implementation"
